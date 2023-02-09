@@ -1,16 +1,9 @@
-/*
-Class: CSE 1322L
-Section: JO5
-Instructor: Harshitha Nirujogi
-Term: Spring'23
-Name: Geovanni Cuevas
-Assignment: 2
- */
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 
-public class Assignment2 {
+public class Auction {
     public static Lot getNextLot(ArrayList<Lot> auctionArrayList) {
         if (auctionArrayList.size() > 0) {
             Lot lot = auctionArrayList.get(0);
